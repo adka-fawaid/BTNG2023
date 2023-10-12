@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+/* headers */
+header {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  padding: 10px;
+}
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* column */
+.column {
+  float: left;
+  margin: 25px;
+  width: 33.33%;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+.footer {
+  clear: both;
+}
+.footer {
+  background-color: black;
+  padding: 3px;
+  text-align: center;
+  color: white;
+}
+/* float left and right */
+img {
+  float: left;
+  width: 170px;
+  height: 200px;
+  margin-right: 20px;
+}
+.right {
+  float: right;
+}
+/* positioning */
+.positioning {
+  clear: both;
+}
+.static {
+  position: static;
+  border: 1px solid black;
+}
+.relative {
+  position: relative;
+  border: 1px solid black;
+}
+.fixed {
+  position: fixed;
+  border: 1px solid black;
+  background-color: red;
+  bottom: 0;
+  color: white;
+  width: 100%;
+}
+.absolute {
+  position: absolute;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+.sticky {
+  position: sticky;
+  border: 1px solid black;
+  top: 0;
+}
+/* content */
+.content {
+  background-color: aqua;
+  width: 300px;
+  border: 2px solid black;
+  padding: 50px;
+}
+.bgimage {
+  background-image: url(/Latihan/img/valo.png);
+  width: 100%;
+  height: 100vh;
+}

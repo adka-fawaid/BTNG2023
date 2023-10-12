@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}

@@ -1,0 +1,358 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+}
+header {
+  text-align: center;
+  margin-top: -10px;
+  padding: 15px;
+  background-color: rgb(120, 116, 116);
+  color: white;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav {
+  position: sticky;
+  background-color: black;
+  top: 0;
+  display: flex;
+  padding: 10px 2rem;
+  text-align: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: orange;
+  padding: 8px 0;
+  text-align: center;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.nav ul li a:hover {
+  color: rgb(0, 255, 64);
+  border-bottom: 1px solid rgb(0, 255, 64);
+}
+main  {
+  margin: 10px;
+  padding: 10px;
+}
+aside {
+  float: right;
+  width: 30%;
+  border: black;
+  border: 10px;
+  box-shadow: 5px 8px 9px 5px black;
+  border-radius: 10px;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.aside-container {
+  margin-right: 10px;
+  padding: 10px;
+}
+aside img {
+  width: 400px;
+  border: black;
+  border-radius: 10px;
+  box-shadow: 4px 5px 6px black;
+}
+aside h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 4px 5px rebeccapurple;
+}
+aside ul li a{
+  text-decoration: none;
+}
+.main-container {
+  margin-left: 10px;
+  padding: 20px;
+}
+.home {
+  border-radius: 20px;
+  box-shadow: 8px 9px 7px 5px black;
+  width: 60%;
+  height: 600px;
+  display: flex;
+}
+.main-container h1 {
+  margin-left: 350px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 3px 4px 5px blueviolet;
+}
+.home img {
+  padding: 10px;
+  margin-top: 100px;
+  backdrop-filter: blur(10px);
+  width: 60%;
+  height: 400px;
+  border-radius: 20px;
+}
+.home h1 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+.home ul {
+  width: 35%;
+  padding: 20px;
+  list-style: none;
+}
+.home li {
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+}
+.home ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* cv */
+#cv .container {
+  margin-top: 10px;
+  padding: 100px;
+}
+#cv .section {
+  padding: 60px 0;
+}
+
+#cv .section-bg {
+  background-color: white;
+}
+
+#cv .section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+#cv .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+#cv .section-title span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+#cv .section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+#cv .col {
+  display: flex;
+}
+#cv .cv-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+#cv .cv-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+#cv .cv-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#cv .cv-item ul {
+  padding-left: 20px;
+}
+
+#cv .cv-item ul li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+#cv .cv-item:last-child {
+  padding-bottom: 0;
+}
+
+#cv .cv-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+/* Contact Section   */
+#contact .Contact-container {
+  padding: 10 0px;
+}
+#contact .section {
+  padding: 60px 0;
+}
+
+#contact .section-bg {
+  background-color: white;
+}
+
+#contact .section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+#contact .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+#contact .section-title span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+#contact .section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+#contact .sosmed .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+#contact h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300px;
+  text-shadow: 10px 10px 10px rebeccapurple;
+}
+#contact .box {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 8px 8px 8px;
+}
+#contact .box:hover {
+  background-color: #bdbfc1;
+}
+#contact .box a {
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+#contact img {
+  width: 50px;
+}
+#contact .form-contact {
+  padding-inline: 300px;
+}
+#contact input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-block: 20px;
+}
+#contact .pesan {
+  height: 100px;
+  font-weight: 600;
+  text-align: left;
+}
+#contact label {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(35, 35, 210, 0.908);
+  color: white;
+  margin-bottom: 100px;
+}
+/* footer */
+footer {
+  background-color: black; 
+  color: #fff; 
+  padding: 10px; 
+  text-align: center; /
+}
+
+footer {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+footer {
+  clear: both;
+}
+
+
+article,
+aside,
+main {
+  margin-bottom: 20px;
+}
